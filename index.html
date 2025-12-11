@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>J S ABHINAV — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Portfolio of J S ABHINAV — 3rd year CSE student at VIT.">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="brand">J S ABHINAV</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certs">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Contact</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Hi — I'm <span class="accent">J S ABHINAV</span></h1>
+          <p class="lead">3rd year CSE student at Vellore Institute of Technology. Building software and IoT solutions. CGPA: <strong>8.96</strong></p>
+          <p class="muted">Interested in Android, IoT, backend systems, and clean UX.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#projects">See Projects</a>
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="card about-card">
+          <h3>Quick facts</h3>
+          <ul>
+            <li><strong>Intermediate:</strong> Sri Chaitanya College — 98.2%</li>
+            <li><strong>Degree:</strong> B.Tech — Computer Science (3rd year)</li>
+            <li><strong>Location:</strong> Vellore Institute of Technology</li>
+            <li><strong>Contact:</strong> <a href="mailto:abhinav.23bce7615@vitapstudent.ac.in">abhinav.23bce7615@vitapstudent.ac.in</a></li>
+            <li><strong>LinkedIn:</strong> <em id="linkedin-placeholder">Add your LinkedIn URL here</em></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="container skills-section">
+      <h2>Skills</h2>
+      <p class="muted">Technologies and tools I use regularly</p>
+      <div class="skills-grid">
+        <div class="skill">Python</div>
+        <div class="skill">Java</div>
+        <div class="skill">C / C++</div>
+        <div class="skill">Kotlin (Android)</div>
+        <div class="skill">IoT</div>
+        <div class="skill">AWS Foundations & Architecture</div>
+      </div>
+    </section>
+
+    <section id="projects" class="container projects-section">
+      <h2>Projects</h2>
+      <p class="muted">A few projects showcasing my work</p>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Tic Tac Toe</h3>
+          <p>Classic Tic Tac Toe game with a smart AI opponent and responsive UI. Built with vanilla JavaScript for game logic and HTML/CSS for UI.</p>
+          <p class="tags"><span>JS</span> <span>HTML</span> <span>CSS</span></p>
+          <a class="link" href="#">View code (placeholder)</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Action Pad — Task Scheduler App</h3>
+          <p>An Android app to schedule, track, and remind tasks. Features recurring tasks, priority labels, and sleek material-inspired UI.</p>
+          <p class="tags"><span>Kotlin</span> <span>Android</span></p>
+          <a class="link" href="#">View on Play Store (placeholder)</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="certs" class="container certs-section">
+      <h2>Certifications</h2>
+      <ul class="cert-list">
+        <li>AWS Foundations</li>
+        <li>AWS Architecture</li>
+        <li>IoT Wizardry</li>
+        <li>IMARTICUS — Android App Development</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container contact-section">
+      <h2>Contact</h2>
+      <p class="muted">I'm open to internships, collaboration, and full-time roles after graduation.</p>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Email</h3>
+          <p><a href="mailto:abhinav.23bce7615@vitapstudent.ac.in">abhinav.23bce7615@vitapstudent.ac.in</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>LinkedIn</h3>
+          <p id="linkedin-contact">Add your LinkedIn link here — placeholder</p>
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        <p>Made with ❤️ — J S ABHINAV · VIT</p>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
